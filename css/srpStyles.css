@@ -1,0 +1,100 @@
+/* Custom Stylesheet */
+/**
+ * SupportMe styles
+ */
+ 
+
+/*.app-container{margin:0% 4% !important;}*/
+@font-face {
+	
+	 font-family:'FrutigerLTW01-67BoldCn';
+	src:
+		url("../fonts/frutiger/a3a15351-8e3c-4c29-82e6-15b106c2181f.eot?#iefix");
+	src:
+		url("../fonts/frutiger/a3a15351-8e3c-4c29-82e6-15b106c2181f.eot?#iefix")
+		format("eot"),
+		url("../fonts/frutiger/d9235e39-d563-4c19-bdad-bb1bcd8c692d.woff2")
+		format("woff2"),
+		url("../fonts/frutiger/f1f95a55-f0c6-4fb5-8939-b93160b7a751.woff")
+		format("woff"),
+		url("../fonts/frutiger/032fd83c-fe79-47fa-9dda-0a3f03bd0506.ttf")
+		format("truetype"),
+		url("../fonts/frutiger/17f04727-b70e-460f-8b5c-c8cd21771240.svg#17f04727-b70e-460f-8b5c-c8cd21771240")
+		format("svg");
+}
+@font-face {
+	font-family: "FrutigerLTW01-47LightCn";
+	src:
+		url("../fonts/frutiger/e5b1a25e-0d2b-4aec-8672-da21553f205d.eot?#iefix");
+	src:
+		url("../fonts/frutiger/e5b1a25e-0d2b-4aec-8672-da21553f205d.eot?#iefix")
+		format("eot"),
+		url("../fonts/frutiger/5ff03272-db79-41a8-ba43-504e794a61b3.woff2")
+		format("woff2"),
+		url("../fonts/frutiger/e59898b4-93a8-4df7-885a-7806f9f0604d.woff")
+		format("woff"),
+		url("../fonts/frutiger/85928e7e-2ace-4f1d-be54-b11c333a8d97.ttf")
+		format("truetype"),
+		url("../fonts/frutiger/89390d0d-7a62-493d-9e77-9c162a709520.svg#89390d0d-7a62-493d-9e77-9c162a709520")
+		format("svg");
+}
+.anim{-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;-o-transition: all 0.2s ease;-ms-transition: all 0.2s ease; }
+.spr-percent{font-size:3rem;font-family: "FrutigerLTW01-47LightCn";}
+.spr-date{font-size:1.2rem;font-family: "FrutigerLTW01-47LightCn";}
+.SRP-goals{font-size:0.9rem;font-family: "FrutigerLTW01-47LightCn";}
+.ticket-table{font-size:0.9rem;font-family: "FrutigerLTW01-47LightCn";}
+.content-font{font-size:0.9rem;font-family: "FrutigerLTW01-47LightCn";color:grey;padding:5px;text-align:center;}
+.fheight{height:220px}
+.badge-small-red{width:25px !important;height:25px !important;font-size: 6px;position: absolute;z-index: 1900;background: #d45001;right: -4px;color: white;padding: 0px;margin: 0px;line-height: 25px;}
+.pos-rel{position: relative;}
+.learn-more a{font-size:0.9rem;font-family:"FrutigerLTW01-67BoldCn";text-align:right;color:#11afca  !important;text-transform:none !important;display:block;}
+
+.slidepanel-overlay{position:fixed;width:100%;height:100%;background:rgba(0,0,0,0.3);z-index:1100;top:0px;left:0px;}     
+.slidepanel-wrap-small{position:fixed;width:30%;height:100%;background:#fff;box-shadow:0px 0px 10px rgba(0,0,0,0.5);z-index:1200;top:0px;left:0px;}       
+.slidepanel-wrap-small.hide{position:fixed;width:30%;height:100%;background:#fff;box-shadow:0px 0px 10px rgba(0,0,0,0.5);z-index:1200;top:0px;left:-30%;} 
+      
+.slidepanel-wrap-medium{position:fixed;width:60%;height:100%;background:#fff;box-shadow:0px 0px 10px rgba(0,0,0,0.5);z-index:1200;top:0px;left:0px;}     
+.slidepanel-wrap-large{position:fixed;width:90%;height:100%;background:#fff;box-shadow:0px 0px 10px rgba(0,0,0,0.5);z-index:1200;top:0px;left:0px;}       
+
+.slidepanel-head{position:relative;display:table;height:50px;width:100%;font-size: 23px;padding: 13px;font-weight: bold;color: #666;
+box-shadow:0 2px 2px -2px rgba(0,0,0,.15);}
+.slidepanel-close-wrap{float:right;position:absolute;right: 10px;top: 1px;}
+.slidepanel-close{background: #fff;
+    height: 34px;
+    width: 34px;
+    border-radius: 100px;
+    padding: 12px 10px 4px 10px;
+    position: relative;
+    top: 16px;
+    border: 2px solid #aaa;
+    cursor: pointer;}
+.slidpanel-close:hover{background:#f6f6f6;border: 2px solid #999;}         
+.slidpanel-close i{color:#999;}     
+.slidpanel-close span{position: absolute;font-size: 11px;color: #aaa;bottom: 14px;display:none;
+    left: -60px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;}
+.slidepanel-cont{   
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    top: 59px;
+    bottom: 59px;
+    }          
+.slidepanel-foot{width: 100%;
+    overflow: auto;
+    position: absolute;
+    bottom: 0px;box-shadow:0 2px 2px -2px rgba(0,0,0,.15);}  
+.srp-main-menu{display:inline-block; margin-left:14px;}
+
+/*Override basic DHL styles*/
+.card .card-title{font-size:20px;}
+.card .card-content{padding:10px;}
+.card .card-action{padding: 5px 15px;}
+.card-content{display:inline-block;width:100%;}
+.container .row{margin:0rem;}
+td{padding: 5px 5px;}
+.btn-floating{box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);margin-top:10px;}
+table th{padding:8px 5px;}
+span.badge.new:after { content: "";}
+nav .brand-logo{position:relative;}
